@@ -3,6 +3,7 @@ package components;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
+
 import utility.Resource;
 
 public class Dino {

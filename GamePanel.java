@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -72,7 +71,6 @@ class GamePanel extends JPanel implements KeyListener, Runnable {
             gameOver = true;
             System.out.println("collide");
         }
-        // game complete condition
     }
 
     public void reset() {
