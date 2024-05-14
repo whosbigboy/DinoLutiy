@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 
 class UserInterface {
-    JFrame mainWindow = new JFrame("T-Rex Run");
+    JFrame mainWindow = new JFrame("Динозавр ррррр");
 
     public static int WIDTH = 800;
     public static int HEIGHT = 500;
