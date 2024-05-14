@@ -1,10 +1,8 @@
 package components;
 
 import utility.Resource;
-
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.util.*;
 
 import javax.imageio.ImageIO;

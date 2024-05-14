@@ -3,9 +3,6 @@ package components;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-
-import components.Ground;
 import utility.Resource;
 
 public class Dino {
@@ -50,8 +47,6 @@ public class Dino {
 
     public void create(Graphics g) {
         dinoBottom = dinoTop + image.getHeight();
-
-        // g.drawRect(getDino().x, getDino().y, getDino().width, getDino().height);
 
         switch(state) {
 

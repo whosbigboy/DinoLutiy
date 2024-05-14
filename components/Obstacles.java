@@ -47,8 +47,8 @@ public class Obstacles {
         imageList.add(new Resource().getResourceImage("../images/Cactus-2.png"));
         imageList.add(new Resource().getResourceImage("../images/Cactus-2.png"));
         imageList.add(new Resource().getResourceImage("../images/Cactus-1.png"));
-        // imageList.add(new Resource().getResourceImage("../images/Cactus-3.png"));
-        // imageList.add(new Resource().getResourceImage("../images/Cactus-4.png"));
+        imageList.add(new Resource().getResourceImage("../images/Cactus-3.png"));
+        imageList.add(new Resource().getResourceImage("../images/Cactus-4.png"));
         imageList.add(new Resource().getResourceImage("../images/Cactus-5.png"));
 
         int x = firstX;
@@ -89,7 +89,6 @@ public class Obstacles {
     public void create(Graphics g) {
         for(Obstacle ob : obList) {
             g.setColor(Color.black);
-            // g.drawRect(ob.getObstacle().x, ob.getObstacle().y, ob.getObstacle().width, ob.getObstacle().height);
             g.drawImage(ob.image, ob.x, ob.y, null);
         }
     }
@@ -106,7 +105,6 @@ public class Obstacles {
     }
 
     public void resume() {
-        // this.obList = null;
         int x = firstX/2;
         obList = new ArrayList<Obstacle>();
 

@@ -1,9 +1,6 @@
-import java.io.*;
-import javax.imageio.*;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
-import java.awt.image.BufferedImage;
 
 class UserInterface {
     JFrame mainWindow = new JFrame("T-Rex Run");

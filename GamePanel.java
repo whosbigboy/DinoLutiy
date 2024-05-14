@@ -1,9 +1,7 @@
-import java.io.*;
-import javax.imageio.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.image.BufferedImage;
 
 import components.Ground;
 import components.Dino;
@@ -65,7 +63,6 @@ class GamePanel extends JPanel implements KeyListener, Runnable {
         score += 1;
 
         ground.update();
-        // dino.update();
         obstacles.update();
 
         if(obstacles.hasCollided()) {
@@ -86,7 +83,6 @@ class GamePanel extends JPanel implements KeyListener, Runnable {
     }
 
     public void keyTyped(KeyEvent e) {
-        // System.out.println(e);
         if(e.getKeyChar() == ' ') {
             if(gameOver) reset();
             if (animator == null || !running) {
@@ -99,12 +95,6 @@ class GamePanel extends JPanel implements KeyListener, Runnable {
             }
         }
     }
-
-    public void keyPressed(KeyEvent e) {
-        // System.out.println("keyPressed: "+e);
-    }
-
-    public void keyReleased(KeyEvent e) {
-        // System.out.println("keyReleased: "+e);
-    }
+    public void keyPressed(KeyEvent e) { }
+    public void keyReleased(KeyEvent e) { }
 }
